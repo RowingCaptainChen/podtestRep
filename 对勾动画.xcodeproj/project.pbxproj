@@ -101,10 +101,9 @@
 		18E141331E35B1C1002CFC17 /* 对勾动画 */ = {
 			isa = PBXGroup;
 			children = (
+				18F4C1D51FFB8AD600315DC9 /* Classes */,
 				18E141371E35B1C1002CFC17 /* AppDelegate.h */,
 				18E141381E35B1C1002CFC17 /* AppDelegate.m */,
-				18E1413A1E35B1C1002CFC17 /* ViewController.h */,
-				18E1413B1E35B1C1002CFC17 /* ViewController.m */,
 				18E1413D1E35B1C1002CFC17 /* Main.storyboard */,
 				18E141401E35B1C1002CFC17 /* Assets.xcassets */,
 				18E141421E35B1C1002CFC17 /* LaunchScreen.storyboard */,
@@ -138,6 +137,15 @@
 				18E1415B1E35B1C1002CFC17 /* Info.plist */,
 			);
 			path = "对勾动画UITests";
+			sourceTree = "<group>";
+		};
+		18F4C1D51FFB8AD600315DC9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18E1413A1E35B1C1002CFC17 /* ViewController.h */,
+				18E1413B1E35B1C1002CFC17 /* ViewController.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
