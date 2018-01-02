@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					18E141301E35B1C1002CFC17 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7W5A3DK237;
 						ProvisioningStyle = Automatic;
 					};
 					18E141491E35B1C1002CFC17 = {
@@ -422,9 +423,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7W5A3DK237;
 				INFOPLIST_FILE = "对勾动画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "test3.----";
+				PRODUCT_BUNDLE_IDENTIFIER = test31123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -433,9 +435,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7W5A3DK237;
 				INFOPLIST_FILE = "对勾动画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "test3.----";
+				PRODUCT_BUNDLE_IDENTIFIER = test31123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -505,6 +508,7 @@
 				18E141601E35B1C1002CFC17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E141611E35B1C1002CFC17 /* Build configuration list for PBXNativeTarget "对勾动画Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +517,7 @@
 				18E141631E35B1C1002CFC17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E141641E35B1C1002CFC17 /* Build configuration list for PBXNativeTarget "对勾动画UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				18E141661E35B1C1002CFC17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
