@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		18E141361E35B1C1002CFC17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E141351E35B1C1002CFC17 /* main.m */; };
 		18E141391E35B1C1002CFC17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E141381E35B1C1002CFC17 /* AppDelegate.m */; };
-		18E1413C1E35B1C1002CFC17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1413B1E35B1C1002CFC17 /* ViewController.m */; };
 		18E1413F1E35B1C1002CFC17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1413D1E35B1C1002CFC17 /* Main.storyboard */; };
 		18E141411E35B1C1002CFC17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E141401E35B1C1002CFC17 /* Assets.xcassets */; };
 		18E141441E35B1C1002CFC17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E141421E35B1C1002CFC17 /* LaunchScreen.storyboard */; };
 		18E1414F1E35B1C1002CFC17 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1414E1E35B1C1002CFC17 /* ____Tests.m */; };
 		18E1415A1E35B1C1002CFC17 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E141591E35B1C1002CFC17 /* ____UITests.m */; };
+		18F4C1D91FFB8BC800315DC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4C1D81FFB8BC800315DC9 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		18E141351E35B1C1002CFC17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E141371E35B1C1002CFC17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18E141381E35B1C1002CFC17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18E1413A1E35B1C1002CFC17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18E1413B1E35B1C1002CFC17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18E1413E1E35B1C1002CFC17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18E141401E35B1C1002CFC17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E141431E35B1C1002CFC17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		18E141551E35B1C1002CFC17 /* 对勾动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "对勾动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E141591E35B1C1002CFC17 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		18E1415B1E35B1C1002CFC17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F4C1D71FFB8BC800315DC9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F4C1D81FFB8BC800315DC9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		18E141331E35B1C1002CFC17 /* 对勾动画 */ = {
 			isa = PBXGroup;
 			children = (
-				18F4C1D51FFB8AD600315DC9 /* Classes */,
+				18F4C1D61FFB8BC800315DC9 /* Classes */,
 				18E141371E35B1C1002CFC17 /* AppDelegate.h */,
 				18E141381E35B1C1002CFC17 /* AppDelegate.m */,
 				18E1413D1E35B1C1002CFC17 /* Main.storyboard */,
@@ -139,13 +139,13 @@
 			path = "对勾动画UITests";
 			sourceTree = "<group>";
 		};
-		18F4C1D51FFB8AD600315DC9 /* Classes */ = {
+		18F4C1D61FFB8BC800315DC9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				18E1413A1E35B1C1002CFC17 /* ViewController.h */,
-				18E1413B1E35B1C1002CFC17 /* ViewController.m */,
+				18F4C1D71FFB8BC800315DC9 /* ViewController.h */,
+				18F4C1D81FFB8BC800315DC9 /* ViewController.m */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E1413C1E35B1C1002CFC17 /* ViewController.m in Sources */,
+				18F4C1D91FFB8BC800315DC9 /* ViewController.m in Sources */,
 				18E141391E35B1C1002CFC17 /* AppDelegate.m in Sources */,
 				18E141361E35B1C1002CFC17 /* main.m in Sources */,
 			);
